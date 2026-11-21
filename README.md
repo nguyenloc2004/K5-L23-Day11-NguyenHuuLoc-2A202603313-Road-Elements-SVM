@@ -12,6 +12,12 @@
 | Export | 16:15 | Export CVAT for images 1.1 (không kèm ảnh), mở lại rồi nộp. | `PYTHONPATH=src python3 -m road_lab.road_check lint <tên>-front.zip <tên>-fisheye.zip` |
 | Buffer | 16:35 | Sửa lô theo phiếu nhận được. Tùy chọn: hoạt động row-anchor. | `PYTHONPATH=src python3 -m road_lab.rowanchor <tên>-front.zip --image A01` |
 
+## Bài nộp (Nguyễn Hữu Lộc · 2A202603313)
+
+File nhãn export từ CVAT (CVAT for images 1.1, không kèm ảnh) để trên Google Drive: **[thư mục file zip nhãn](https://drive.google.com/drive/folders/1yUreqFCXgmgXzPxhIrKJJNDXATRaGDdw?usp=sharing)**. Thư mục gồm `nguyenhuuloc-front.zip` và `nguyenhuuloc-fisheye.zip`.
+
+Các file đi kèm nằm trong [`submission/`](submission/): [manifest bàn giao](submission/nguyenhuuloc-manifest.json) (revision 2), [báo cáo](submission/nguyenhuuloc-report.md), [Phiếu QC 1 cho bạn được ghép](submission/nguyenhuuloc-qc1-for-nguyenhainam.md). Bản nộp lần đầu (revision 1) được giữ ở [`submission/r1/`](submission/r1/).
+
 ## Cài đặt
 
 Chỉ cần Python 3.11 trở lên; code chỉ dùng thư viện chuẩn. Muốn chạy test thì cài thêm pytest.
